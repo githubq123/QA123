@@ -1,0 +1,77 @@
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: var(--tenne-tawny);
+    padding: 1rem;
+}
+.navbar .nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+}
+.navbar .nav-link:hover {
+    background-color: var(--tenne-tawny-dark);
+}
+
+/* Form Styles */
+.form-wrapper {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.79);
+    text-align: center;
+}
+.form-group {
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+.form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+.form-group input {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid var(--tenne-tawny);
+    border-radius: 0.5rem;
+}
+.form-group i {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.2rem;
+    color: var(--tenne-tawny);
+}
+/* styles.css */
+
+.btn {
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 15px 20px; /* Add some padding */
+    text-align: center; /* Center-align text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the link appear as a block-level element */
+    font-size: 16px; /* Increase font size */
+    margin: 10px 2px; /* Add some margin */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    border-radius: 5px; /* Add rounded corners */
+  }
+  
+  .btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+p {
+    margin-top: 1rem;
+}
+p a {
+    color: var(--tenne-tawny);
+}
